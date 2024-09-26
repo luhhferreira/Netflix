@@ -125,3 +125,43 @@ body {
 .nav__black {
     background-color: #111;
 }
+/*POG: Modal*/
+#modal{
+    z-index: 99999;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(0,0,0,.8);
+}
+#modal .conteudo{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-left:0px;
+}
+#modal #videoModal{
+    width: 90%;
+}
+
+.modalHidden{
+    visibility: hidden;
+}
+
+#modal .fechar{
+    position: fixed;
+    top:20px;
+    right: 30px;
+    
+    font-size: 30px;
+    color:red;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
